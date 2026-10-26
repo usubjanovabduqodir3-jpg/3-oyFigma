@@ -1,0 +1,216 @@
+{
+  "common": {
+    "addToCart": "Add to cart",
+    "inCart": "In cart",
+    "addToWishlist": "Add to wishlist",
+    "removeFromWishlist": "Remove from wishlist",
+    "view": "View",
+    "new": "NEW",
+    "backToShop": "Return to shop",
+    "shopNow": "Shop now",
+    "viewAllProducts": "View all products",
+    "viewAll": "View all"
+  },
+  "language": {
+    "label": "Select language"
+  },
+  "nav": {
+    "home": "Home",
+    "contact": "Contact",
+    "about": "About",
+    "signUp": "Sign up"
+  },
+  "header": {
+    "promo": "Summer sale for all swim suits and free express delivery - OFF 50%!",
+    "searchPlaceholder": "What are you looking for?",
+    "wishlist": "Wishlist",
+    "cart": "Cart",
+    "userMenu": "User menu",
+    "logout": "Log out",
+    "menu": {
+      "manageAccount": "Manage My Account",
+      "myOrder": "My Order",
+      "myCancellations": "My Cancellations",
+      "myReviews": "My Reviews"
+    }
+  },
+  "footer": {
+    "subscribe": "Subscribe",
+    "subscribeText": "Get 10% off your first order",
+    "emailPlaceholder": "Enter your email",
+    "support": "Support",
+    "account": "Account",
+    "myAccount": "My account",
+    "loginSignUp": "Login / Register",
+    "cart": "Cart",
+    "wishlist": "Wishlist",
+    "shop": "Shop",
+    "quickLinks": "Quick links",
+    "privacy": "Privacy policy",
+    "terms": "Terms of use",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "downloadApp": "Download app",
+    "newUsersOffer": "Special offer for new users",
+    "getItOn": "Get it on",
+    "downloadOn": "Download on the",
+    "copyright": "© {{year}} Exclusive. All rights reserved."
+  },
+  "services": {
+    "delivery": {
+      "title": "FREE AND FAST DELIVERY",
+      "desc": "Free delivery for all orders over $140"
+    },
+    "support": {
+      "title": "24/7 CUSTOMER SERVICE",
+      "desc": "Friendly 24/7 customer support"
+    },
+    "guarantee": {
+      "title": "MONEY BACK GUARANTEE",
+      "desc": "We return money within 30 days"
+    }
+  },
+  "home": {
+    "sidebar": {
+      "women": "Woman's fashion",
+      "men": "Men's fashion",
+      "electronics": "Electronics",
+      "homeLifestyle": "Home & lifestyle",
+      "medicine": "Medicine",
+      "sports": "Sports & outdoor",
+      "baby": "Baby's & toys",
+      "groceries": "Groceries & pets",
+      "health": "Health & beauty"
+    },
+    "hero": {
+      "series": "iPhone 14 Series",
+      "title": "Up to 10% off voucher"
+    },
+    "flash": {
+      "tag": "Today's",
+      "title": "Flash sales"
+    },
+    "time": {
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds"
+    },
+    "categories": {
+      "tag": "Categories",
+      "title": "Browse by category",
+      "phones": "Phones",
+      "computers": "Computers",
+      "smartwatch": "SmartWatch",
+      "camera": "Camera",
+      "headphones": "Headphones",
+      "gaming": "Gaming"
+    },
+    "best": {
+      "tag": "This month",
+      "title": "Best selling products"
+    },
+    "music": {
+      "tag": "Categories",
+      "title": "Enhance your music experience",
+      "buyNow": "Buy now!",
+      "imgAlt": "JBL speaker banner"
+    },
+    "explore": {
+      "tag": "Our products",
+      "title": "Explore our products"
+    },
+    "featured": {
+      "tag": "Featured",
+      "title": "New arrival",
+      "ps5Title": "PlayStation 5",
+      "ps5Desc": "Black and white version of the PS5 coming out on sale.",
+      "womenTitle": "Women's collections",
+      "womenDesc": "Featured woman collections that give you another vibe.",
+      "speakersTitle": "Speakers",
+      "speakersDesc": "Amazon wireless speakers",
+      "perfumeTitle": "Perfume"
+    }
+  },
+  "about": {
+    "storyTitle": "Our story",
+    "storyP1": "Launched in 2015, Exclusive is South Asia's premier online shopping marketplace with an active presence in Bangladesh. Supported by a wide range of tailored marketing, data and service solutions, Exclusive has 10,500 sellers and 300 brands and serves 3 million customers across the region.",
+    "storyP2": "Exclusive has more than 1 million products to offer, growing at a very fast pace. Exclusive offers a diverse assortment in categories ranging from consumer goods to electronics.",
+    "storyImgAlt": "Our story",
+    "statSellers": "Sellers active on our site",
+    "statSales": "Monthly product sales",
+    "statCustomers": "Customers active on our site",
+    "statGross": "Annual gross sales on our site",
+    "roleFounder": "Founder & Chairman",
+    "roleDirector": "Managing Director",
+    "roleDesigner": "Product Designer"
+  },
+  "cart": {
+    "title": "Cart",
+    "emptyTitle": "Your cart is empty for now",
+    "emptyText": "Add your favourite products to the cart.",
+    "product": "Product",
+    "price": "Price",
+    "quantity": "Quantity",
+    "subtotal": "Subtotal",
+    "remove": "Remove from cart",
+    "decrease": "Decrease",
+    "increase": "Increase",
+    "clear": "Clear cart",
+    "couponPlaceholder": "Coupon code",
+    "applyCoupon": "Apply coupon",
+    "enterCoupon": "Enter a coupon code",
+    "couponApplied": "Coupon applied: -{{percent}}%",
+    "couponInvalid": "Invalid coupon code",
+    "totalTitle": "Cart total",
+    "totalSubtotal": "Subtotal:",
+    "totalDiscount": "Discount ({{code}}):",
+    "totalShipping": "Shipping:",
+    "free": "Free",
+    "totalSum": "Total:",
+    "checkout": "Proceed to checkout"
+  },
+  "wishlist": {
+    "title": "Wishlist ({{n}})",
+    "moveAll": "Move all to cart",
+    "emptyTitle": "Your wishlist is empty for now",
+    "emptyText": "Tap the heart on any product and it will show up here.",
+    "forYou": "Just for you",
+    "seeAll": "See all"
+  },
+  "notFound": {
+    "breadcrumb": "404 error",
+    "title": "404 — Page not found",
+    "text": "The page you are looking for does not exist. Try going back to the home page.",
+    "back": "Back to home page"
+  },
+  "auth": {
+    "title": "Create an account",
+    "loginTitle": "Log in to Exclusive",
+    "subtitle": "Enter your details below",
+    "name": "Name",
+    "emailOrPhone": "Email or Phone Number",
+    "password": "Password",
+    "createAccount": "Create Account",
+    "login": "Log in",
+    "google": "Sign up with Google",
+    "googleLogin": "Log in with Google",
+    "loading": "Please wait...",
+    "haveAccount": "Already have account?",
+    "noAccount": "Don't have an account?",
+    "signUpLink": "Sign up",
+    "errors": {
+      "generic": "Something went wrong. Please try again.",
+      "popupBlocked": "Your browser blocked the Google window. Allow pop-ups and try again.",
+      "network": "No internet connection. Check your connection and try again.",
+      "unauthorizedDomain": "This site address is not yet allowed for sign-in.",
+      "notEnabled": "This sign-in method is not enabled yet.",
+      "userDisabled": "This account has been disabled.",
+      "tooManyRequests": "Too many attempts. Please try again later.",
+      "emailOnly": "Enter a valid email address. Phone number sign-in is not available yet.",
+      "emailInUse": "An account with this email already exists.",
+      "weakPassword": "Password must be at least 6 characters long.",
+      "wrongCredentials": "Incorrect email or password."
+    }
+  }
+}

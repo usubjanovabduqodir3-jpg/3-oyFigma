@@ -1,0 +1,272 @@
+.wl-page {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 80px 15px;
+  font-family: sans-serif;
+}
+
+.wl-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 60px;
+}
+
+.wl-head h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.wl-head-rec {
+  margin-top: 80px;
+}
+
+.wl-title-box {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.wl-badge {
+  width: 20px;
+  height: 40px;
+  background-color: #db4444;
+  border-radius: 4px;
+}
+
+.wl-title-box h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.wl-outline-btn {
+  display: inline-block;
+  background: transparent;
+  color: #000;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  padding: 16px 40px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.wl-outline-btn:hover:not(:disabled) {
+  background-color: #000;
+  color: #fff;
+}
+
+.wl-outline-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* Mahsulotlar to'ri */
+.wl-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.wl-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.wl-img-box {
+  position: relative;
+  height: 250px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.wl-img-box img {
+  width: 170px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.wl-discount,
+.wl-new {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+
+.wl-discount {
+  background-color: #db4444;
+  color: #fff;
+}
+
+.wl-new {
+  background-color: #00ff66;
+  color: #000;
+}
+
+.wl-actions {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.wl-actions button {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #000;
+}
+
+.wl-actions button:hover {
+  background-color: #db4444;
+  color: #fff;
+}
+
+.wl-cart-btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.wl-cart-btn:hover:not(:disabled) {
+  background-color: #db4444;
+}
+
+.wl-cart-btn.in-cart {
+  background-color: #555;
+  cursor: default;
+}
+
+.wl-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.wl-info h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.wl-prices {
+  display: flex;
+  gap: 12px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.wl-current {
+  color: #db4444;
+}
+
+.wl-old {
+  color: #000;
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.wl-rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.wl-stars {
+  display: flex;
+  color: #ffad33;
+  font-size: 18px;
+}
+
+/* Bo'sh holat */
+.wl-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 40px 15px 20px;
+  text-align: center;
+}
+
+.wl-empty > svg {
+  font-size: 56px;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.wl-empty p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.wl-empty span {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 12px;
+}
+
+@media (max-width: 992px) {
+  .wl-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .wl-page {
+    padding: 40px 15px;
+  }
+
+  .wl-head {
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+
+  .wl-head-rec {
+    margin-top: 50px;
+  }
+
+  .wl-outline-btn {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+
+  .wl-grid {
+    grid-template-columns: 1fr;
+  }
+}

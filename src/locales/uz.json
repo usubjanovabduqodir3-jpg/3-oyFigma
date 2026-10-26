@@ -1,0 +1,216 @@
+{
+  "common": {
+    "addToCart": "Savatga qo'shish",
+    "inCart": "Savatda",
+    "addToWishlist": "Sevimlilarga qo'shish",
+    "removeFromWishlist": "Sevimlilardan olib tashlash",
+    "view": "Ko'rish",
+    "new": "YANGI",
+    "backToShop": "Do'konga qaytish",
+    "shopNow": "Hozir xarid qilish",
+    "viewAllProducts": "Barcha mahsulotlarni ko'rish",
+    "viewAll": "Barchasini ko'rish"
+  },
+  "language": {
+    "label": "Tilni tanlang"
+  },
+  "nav": {
+    "home": "Bosh sahifa",
+    "contact": "Aloqa",
+    "about": "Biz haqimizda",
+    "signUp": "Ro'yxatdan o'tish"
+  },
+  "header": {
+    "promo": "Barcha cho'milish kiyimlari uchun yozgi chegirma va bepul tezkor yetkazib berish - 50% CHEGIRMA!",
+    "searchPlaceholder": "Nimani qidiryapsiz?",
+    "wishlist": "Sevimlilar",
+    "cart": "Savatcha",
+    "userMenu": "Foydalanuvchi menyusi",
+    "logout": "Chiqish",
+    "menu": {
+      "manageAccount": "Hisobni boshqarish",
+      "myOrder": "Buyurtmalarim",
+      "myCancellations": "Bekor qilinganlar",
+      "myReviews": "Sharhlarim"
+    }
+  },
+  "footer": {
+    "subscribe": "Obuna bo'lish",
+    "subscribeText": "Birinchi buyurtmangizga 10% chegirma oling",
+    "emailPlaceholder": "Email manzilingiz",
+    "support": "Yordam",
+    "account": "Hisob",
+    "myAccount": "Mening hisobim",
+    "loginSignUp": "Kirish / Ro'yxatdan o'tish",
+    "cart": "Savatcha",
+    "wishlist": "Sevimlilar",
+    "shop": "Do'kon",
+    "quickLinks": "Tezkor havolalar",
+    "privacy": "Maxfiylik siyosati",
+    "terms": "Foydalanish shartlari",
+    "faq": "Ko'p so'raladigan savollar",
+    "contact": "Aloqa",
+    "downloadApp": "Ilovani yuklab olish",
+    "newUsersOffer": "Yangi foydalanuvchilar uchun maxsus taklif",
+    "getItOn": "Google Play orqali",
+    "downloadOn": "Yuklab olish",
+    "copyright": "© {{year}} Exclusive. Barcha huquqlar himoyalangan."
+  },
+  "services": {
+    "delivery": {
+      "title": "BEPUL VA TEZ YETKAZISH",
+      "desc": "$140 dan yuqori barcha buyurtmalar uchun bepul yetkazib berish"
+    },
+    "support": {
+      "title": "24/7 MIJOZLARGA XIZMAT",
+      "desc": "Doimiy 24/7 mijozlarni qo'llab-quvvatlash"
+    },
+    "guarantee": {
+      "title": "PULNI QAYTARISH KAFOLATI",
+      "desc": "30 kun ichida pulingizni qaytarib beramiz"
+    }
+  },
+  "home": {
+    "sidebar": {
+      "women": "Ayollar modasi",
+      "men": "Erkaklar modasi",
+      "electronics": "Elektronika",
+      "homeLifestyle": "Uy va turmush tarzi",
+      "medicine": "Tibbiyot",
+      "sports": "Sport va ochiq havo",
+      "baby": "Bolalar va o'yinchoqlar",
+      "groceries": "Oziq-ovqat va uy hayvonlari",
+      "health": "Salomatlik va go'zallik"
+    },
+    "hero": {
+      "series": "iPhone 14 Seriyasi",
+      "title": "10% gacha chegirma kuponi"
+    },
+    "flash": {
+      "tag": "Bugungi",
+      "title": "Flash Savdo"
+    },
+    "time": {
+      "days": "Kun",
+      "hours": "Soat",
+      "minutes": "Daqiqa",
+      "seconds": "Soniya"
+    },
+    "categories": {
+      "tag": "Kategoriyalar",
+      "title": "Kategoriya bo'yicha saralash",
+      "phones": "Telefonlar",
+      "computers": "Kompyuterlar",
+      "smartwatch": "Smart soatlar",
+      "camera": "Kameralar",
+      "headphones": "Quloqchinlar",
+      "gaming": "O'yinlar"
+    },
+    "best": {
+      "tag": "Ushbu oy",
+      "title": "Eng ko'p sotilgan mahsulotlar"
+    },
+    "music": {
+      "tag": "Kategoriyalar",
+      "title": "Musiqa tajribangizni oshiring",
+      "buyNow": "Hozir sotib olish!",
+      "imgAlt": "JBL karnay banneri"
+    },
+    "explore": {
+      "tag": "Bizning mahsulotlar",
+      "title": "Mahsulotlarimizni kashf eting"
+    },
+    "featured": {
+      "tag": "Tavsiya etilgan",
+      "title": "Yangi kelganlar",
+      "ps5Title": "PlayStation 5",
+      "ps5Desc": "PS5 ning qora va oq rangdagi versiyasi sotuvda.",
+      "womenTitle": "Ayollar kolleksiyasi",
+      "womenDesc": "Sizga o'zgacha kayfiyat bag'ishlaydigan kiyimlar.",
+      "speakersTitle": "Karnaylar",
+      "speakersDesc": "Amazon simsiz karnaylari",
+      "perfumeTitle": "Atir"
+    }
+  },
+  "about": {
+    "storyTitle": "Bizning hikoyamiz",
+    "storyP1": "2015-yilda ishga tushirilgan Exclusive — Janubiy Osiyodagi yetakchi onlayn savdo maydoni bo'lib, Bangladeshda faol ishlaydi. Moslashtirilgan marketing, ma'lumotlar va xizmat yechimlarining keng doirasi qo'llab-quvvatlovi bilan Exclusive 10 500 ta sotuvchi va 300 ta brendga ega bo'lib, mintaqa bo'ylab 3 million mijozga xizmat ko'rsatadi.",
+    "storyP2": "Exclusive 1 milliondan ortiq mahsulot taklif qiladi va bu ko'rsatkich juda tez o'sib bormoqda. Exclusive iste'mol tovarlaridan tortib elektronikagacha bo'lgan turli xil toifalarda keng assortimentni taklif etadi.",
+    "storyImgAlt": "Bizning hikoyamiz",
+    "statSellers": "Saytdagi faol sotuvchilar",
+    "statSales": "Oylik mahsulot sotuvi",
+    "statCustomers": "Saytdagi faol mijozlar",
+    "statGross": "Yillik yalpi savdo",
+    "roleFounder": "Asoschi va Rais",
+    "roleDirector": "Boshqaruvchi direktor",
+    "roleDesigner": "Mahsulot dizayneri"
+  },
+  "cart": {
+    "title": "Savatcha",
+    "emptyTitle": "Savatchangiz hozircha bo'sh",
+    "emptyText": "Sevimli mahsulotlaringizni savatchaga qo'shing.",
+    "product": "Mahsulot",
+    "price": "Narxi",
+    "quantity": "Miqdori",
+    "subtotal": "Jami",
+    "remove": "Savatchadan olib tashlash",
+    "decrease": "Kamaytirish",
+    "increase": "Ko'paytirish",
+    "clear": "Savatchani tozalash",
+    "couponPlaceholder": "Kupon kodi",
+    "applyCoupon": "Kuponni qo'llash",
+    "enterCoupon": "Kupon kodini kiriting",
+    "couponApplied": "Kupon qo'llandi: -{{percent}}%",
+    "couponInvalid": "Kupon kodi noto'g'ri",
+    "totalTitle": "Savatcha jami",
+    "totalSubtotal": "Oraliq jami:",
+    "totalDiscount": "Chegirma ({{code}}):",
+    "totalShipping": "Yetkazib berish:",
+    "free": "Bepul",
+    "totalSum": "Jami:",
+    "checkout": "Buyurtmani rasmiylashtirish"
+  },
+  "wishlist": {
+    "title": "Sevimlilar ({{n}})",
+    "moveAll": "Hammasini savatga o'tkazish",
+    "emptyTitle": "Sevimlilar ro'yxatingiz hozircha bo'sh",
+    "emptyText": "Mahsulotdagi yurakcha tugmasini bosing — u shu yerda paydo bo'ladi.",
+    "forYou": "Siz uchun",
+    "seeAll": "Hammasini ko'rish"
+  },
+  "notFound": {
+    "breadcrumb": "404 xato",
+    "title": "404 — Sahifa topilmadi",
+    "text": "Siz qidirgan sahifa mavjud emas. Bosh sahifaga qaytib ko'ring.",
+    "back": "Bosh sahifaga qaytish"
+  },
+  "auth": {
+    "title": "Hisob yaratish",
+    "loginTitle": "Exclusive'ga kirish",
+    "subtitle": "Ma'lumotlaringizni quyida kiriting",
+    "name": "Ism",
+    "emailOrPhone": "Email yoki telefon raqam",
+    "password": "Parol",
+    "createAccount": "Hisob yaratish",
+    "login": "Kirish",
+    "google": "Google bilan ro'yxatdan o'tish",
+    "googleLogin": "Google bilan kirish",
+    "loading": "Kutilmoqda...",
+    "haveAccount": "Hisobingiz bormi?",
+    "noAccount": "Hisobingiz yo'qmi?",
+    "signUpLink": "Ro'yxatdan o'tish",
+    "errors": {
+      "generic": "Xatolik yuz berdi. Iltimos, qayta urinib ko'ring.",
+      "popupBlocked": "Brauzer Google oynasini blokladi. Oynalarga ruxsat bering va qayta urinib ko'ring.",
+      "network": "Internet bilan aloqa yo'q. Ulanishni tekshirib, qayta urinib ko'ring.",
+      "unauthorizedDomain": "Bu sayt manzili kirish uchun hali ruxsat etilmagan.",
+      "notEnabled": "Bu kirish usuli hozircha yoqilmagan.",
+      "userDisabled": "Bu hisob bloklangan.",
+      "tooManyRequests": "Urinishlar juda ko'p. Birozdan so'ng qayta urinib ko'ring.",
+      "emailOnly": "To'g'ri email manzil kiriting. Hozircha telefon raqam bilan kirish mavjud emas.",
+      "emailInUse": "Bu email bilan hisob allaqachon mavjud.",
+      "weakPassword": "Parol kamida 6 ta belgidan iborat bo'lishi kerak.",
+      "wrongCredentials": "Email yoki parol noto'g'ri."
+    }
+  }
+}

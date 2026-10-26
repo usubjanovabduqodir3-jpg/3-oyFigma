@@ -1,0 +1,194 @@
+.su-page {
+  display: flex;
+  align-items: center;
+  gap: clamp(40px, 9vw, 129px);
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 60px 0 140px;
+  font-family: sans-serif;
+}
+
+/* Chap rasm paneli (Figma: och havorang fon) */
+.su-art {
+  flex: 0 1 805px;
+  min-width: 0;
+  height: 781px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #cbe4e8;
+  border-radius: 0 4px 4px 0;
+  overflow: hidden;
+}
+
+.su-art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.su-card {
+  flex: 0 0 371px;
+  max-width: 100%;
+}
+
+.su-card h1 {
+  margin: 0 0 24px;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+}
+
+.su-subtitle {
+  margin: 0 0 48px;
+  font-size: 16px;
+}
+
+.su-form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.su-field {
+  width: 100%;
+  padding: 8px 0;
+  box-sizing: border-box;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 0;
+  color: #000;
+  font-family: inherit;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.su-field::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.su-field:focus {
+  border-bottom-color: #db4444;
+}
+
+.su-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.su-submit,
+.su-google {
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s, opacity 0.2s;
+}
+
+.su-submit {
+  background: #db4444;
+  border: 1px solid #db4444;
+  color: #fff;
+}
+
+.su-submit:hover:not(:disabled) {
+  background: #c93a3a;
+}
+
+.su-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  color: #000;
+}
+
+.su-google svg {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.su-google:hover:not(:disabled) {
+  background: #f5f5f5;
+}
+
+.su-submit:disabled,
+.su-google:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.su-error {
+  margin: 24px 0 0;
+  padding: 12px 16px;
+  background: #fdecec;
+  border-radius: 4px;
+  color: #db4444;
+  font-size: 14px;
+}
+
+.su-switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 32px 0 0;
+  font-size: 16px;
+}
+
+.su-switch span {
+  opacity: 0.7;
+}
+
+.su-switch button {
+  padding: 0 0 4px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  color: #000;
+  font-family: inherit;
+  font-size: 16px;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.su-switch button:hover {
+  opacity: 1;
+}
+
+@media (max-width: 900px) {
+  .su-page {
+    justify-content: center;
+    padding: 60px 15px 80px;
+  }
+
+  .su-art {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .su-card h1 {
+    font-size: 28px;
+  }
+
+  .su-subtitle {
+    margin-bottom: 32px;
+  }
+
+  .su-form {
+    gap: 32px;
+  }
+}

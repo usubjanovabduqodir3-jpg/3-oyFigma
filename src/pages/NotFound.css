@@ -1,0 +1,59 @@
+.nf-page {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 80px 15px;
+  font-family: sans-serif;
+}
+
+.nf-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  margin-bottom: 100px;
+}
+
+.nf-breadcrumb a {
+  color: #000;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.nf-breadcrumb a:hover {
+  opacity: 1;
+}
+
+.nf-current {
+  color: #000;
+}
+
+.nf-body {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.nf-body h1 {
+  font-size: clamp(32px, 6vw, 80px);
+  font-weight: 500;
+  margin: 0 0 30px;
+}
+
+.nf-body p {
+  font-size: 16px;
+  margin: 0 0 60px;
+}
+
+.nf-btn {
+  display: inline-block;
+  background-color: #db4444;
+  color: #fff;
+  text-decoration: none;
+  padding: 16px 48px;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: opacity 0.2s;
+}
+
+.nf-btn:hover {
+  opacity: 0.85;
+}

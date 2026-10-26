@@ -1,0 +1,334 @@
+.ct-page {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 80px 15px;
+  font-family: sans-serif;
+}
+
+.ct-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  margin-bottom: 80px;
+}
+
+.ct-breadcrumb a {
+  color: #000;
+  opacity: 0.5;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.ct-breadcrumb a:hover {
+  opacity: 1;
+}
+
+.ct-current {
+  color: #000;
+}
+
+/* Jadval */
+.ct-table {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.ct-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  align-items: center;
+  padding: 24px 40px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 13px rgba(0, 0, 0, 0.05);
+  font-size: 16px;
+}
+
+.ct-row-head {
+  padding: 24px 40px;
+}
+
+.ct-product {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.ct-thumb {
+  position: relative;
+  width: 54px;
+  height: 54px;
+  flex-shrink: 0;
+}
+
+.ct-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.ct-remove {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background-color: #db4444;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.ct-remove:hover {
+  background-color: #b83030;
+}
+
+/* Miqdor tugmalari */
+.ct-qty {
+  display: inline-flex;
+  align-items: center;
+  border: 1.5px solid rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+}
+
+.ct-qty span {
+  min-width: 36px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.ct-qty button {
+  width: 32px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.ct-qty button:hover:not(:disabled) {
+  background-color: #db4444;
+  color: #fff;
+}
+
+.ct-qty button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* Tugmalar */
+.ct-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.ct-outline-btn {
+  display: inline-block;
+  background: transparent;
+  color: #000;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  padding: 16px 48px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.ct-outline-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.ct-red-btn {
+  background-color: #db4444;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 48px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.ct-red-btn:hover {
+  opacity: 0.85;
+}
+
+/* Kupon va jami */
+.ct-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 80px;
+}
+
+.ct-coupon-row {
+  display: flex;
+  gap: 16px;
+}
+
+.ct-coupon-row input {
+  width: 300px;
+  padding: 16px 24px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.ct-coupon-msg {
+  margin: 12px 0 0;
+  font-size: 14px;
+}
+
+.ct-coupon-msg.ok {
+  color: #00a152;
+}
+
+.ct-coupon-msg.err {
+  color: #db4444;
+}
+
+.ct-total {
+  width: 470px;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 32px 24px;
+  border: 1.5px solid #000;
+  border-radius: 4px;
+}
+
+.ct-total h3 {
+  margin: 0 0 24px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.ct-total-line {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  font-size: 16px;
+}
+
+.ct-total-sum {
+  border-bottom: none;
+  font-weight: 600;
+}
+
+.ct-checkout {
+  display: block;
+  margin: 8px auto 0;
+}
+
+/* Bo'sh holat */
+.ct-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.ct-empty p {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.ct-empty span {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 16px;
+}
+
+/* Planshet va telefon */
+@media (max-width: 800px) {
+  .ct-page {
+    padding: 40px 15px;
+  }
+
+  .ct-breadcrumb {
+    margin-bottom: 40px;
+  }
+
+  .ct-table {
+    gap: 20px;
+  }
+
+  .ct-row-head {
+    display: none;
+  }
+
+  .ct-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: 20px;
+  }
+
+  .ct-product {
+    grid-column: 1 / -1;
+  }
+
+  .ct-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .ct-cell::before {
+    content: attr(data-label);
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .ct-actions {
+    flex-direction: column;
+  }
+
+  .ct-outline-btn,
+  .ct-red-btn {
+    padding: 14px 24px;
+    text-align: center;
+  }
+
+  .ct-bottom {
+    flex-direction: column;
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .ct-coupon {
+    width: 100%;
+  }
+
+  .ct-coupon-row {
+    flex-direction: column;
+  }
+
+  .ct-coupon-row input {
+    width: 100%;
+  }
+
+  .ct-total {
+    width: 100%;
+  }
+}
